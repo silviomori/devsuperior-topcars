@@ -1,0 +1,30 @@
+.main-nav {
+  min-height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-nav h1 {
+  font-size: 24px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 180px;
+}
+
+.main-menu p {
+  margin-bottom: 0;
+}
+
+.main-menu p:hover {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
