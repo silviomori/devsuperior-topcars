@@ -16,7 +16,10 @@ const Home = () => {
                 <p>Discover our cars and take another step to make your dreams come true</p>
             </div>
         </div>
-        <div className="base-card action-card"></div>
+        <div className="base-card action-card">
+            <button className="bg-primary">Check catalog</button>
+            <p>Start browsing now</p>
+        </div>
       </div>
     </>
   );
