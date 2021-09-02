@@ -1,0 +1,42 @@
+.search-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-card-content {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin: 22px 10px;
+}
+
+.search-card-content input {
+  flex-grow: 3;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 24px;
+}
+
+.search-card-content input::placeholder {
+  color: #a7a7a7;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.search-card-content button {
+  flex-grow: 1;
+  text-transform: uppercase;
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media (min-width: 576px) {
+  .search-card-content {
+    margin: 42px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-card-content {
+    margin: 42px 97px;
+  }
+}
