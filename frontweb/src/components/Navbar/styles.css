@@ -15,11 +15,15 @@
   width: 180px;
 }
 
-.main-menu p {
+.main-menu a {
   margin-bottom: 0;
 }
 
-.main-menu p:hover {
+.main-menu a:hover {
+  font-weight: bold;
+}
+
+.main-menu a.active {
   font-weight: bold;
 }
 
